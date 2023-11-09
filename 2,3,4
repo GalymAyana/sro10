@@ -1,0 +1,12 @@
+import pandas as pd
+designer_data = {
+    'Аты-жөні': ['Аида Кауменова', 'Салтанат Баймұхамедова', 'Камила КУрбани', 'Ая Балапани'],
+    'Жасы': [34, 36, 29, 29],
+}
+df = pd.DataFrame(designer_data)
+print("Қазақстандық дизайнерлер")
+print(df)
+
+import pandas as pd
+new_test = pd.read_csv('c:\\Users\\Galym Ayana\\Desktop\\python\\new_test.csv')
+print(new_test)
